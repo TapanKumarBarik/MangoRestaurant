@@ -9,6 +9,7 @@ namespace Mango.Services.Product.API.Profiles
         public MangoProductProfile()
         {
             CreateMap<MangoProduct, MangoProductDTO>();
+            CreateMap<MangoProductDTO, MangoProduct>();
         }
     }
 }
